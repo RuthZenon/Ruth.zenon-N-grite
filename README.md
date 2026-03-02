@@ -1,96 +1,67 @@
-# Ruth.zenon-N-grite
-Portfolio BTS SIO/SISR 
-🚀 Portfolio – BTS SIO SISR
-👋 Bienvenue sur mon Portfolio
+# 🖥️ Bienvenue sur mon Portfolio GitHub
 
-Je suis étudiante en BTS Services Informatiques aux Organisations (SIO), spécialité SISR (Solutions d’Infrastructure, Systèmes et Réseaux).
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=EE8434&height=200&section=header&text=Fernandes%20Sébastien&fontSize=50&animation=fadeIn&fontAlignY=38&desc=BTS%20SIO%20SISR%20•%20Futur%20Administrateur%20Systèmes%20%26%20Réseaux&descAlignY=62&descFontSize=20" />
+</p>
 
-Passionnée par l’infrastructure informatique et la cybersécurité, je développe des solutions robustes, sécurisées et adaptées aux besoins des organisations.
+<p align="center">
+  <img src="https://img.shields.io/badge/📍-IPSSI_Saint--Quentin-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/💻-Étudiant_BTS_SIO_SISR-blueviolet?style=for-the-badge" />
+</p>
 
-🎯 Objectif Professionnel
+---
 
-Devenir Administratrice Systèmes et Réseaux, puis évoluer vers des responsabilités plus avancées en ingénierie infrastructure et cybersécurité.
+## 🚀 À propos de moi
+Passionné par l'**infrastructure IT** et la **cybersécurité**, je développe actuellement mes compétences à l'IPSSI Saint-Quentin. Mon objectif est de concevoir et sécuriser des architectures réseaux robustes et performantes.
 
-Je souhaite contribuer activement à :
+* 🎯 **Objectif :** Devenir un expert en administration infrastructures et sécurité réseau.
+* 🛠️ **En ce moment :** Je travaille sur l'optimisation des architectures LAN et la sécurisation des SI.
 
-La sécurisation des systèmes d'information
+---
 
-L’optimisation des architectures réseau
+## 🛠️ Domaines de Compétences
 
-La mise en place de solutions fiables et performantes
+### 🌐 Infrastructure Réseau
+* 📡 **Configuration :** Switchs et Routeurs (VLANs, Routage Inter-VLAN, OSPF).
+* 🏗️ **Architecture :** Mise en place d'architectures LAN et gestion de l'adressage IP.
+* 🔐 **Sécurité :** VPN, Firewalling (pfSense, Stormshield).
 
-🧠 Domaines de Compétences
-🔹 Infrastructure Réseau
+### 🖥️ Administration Système
+* 🐧 **Linux :** Administration Debian/Ubuntu, scripting Bash.
+* 🪟 **Windows Server :** Active Directory (AD DS), GPO, gestion des droits.
+* ☁️ **Virtualisation :** VMware, Proxmox, VirtualBox.
 
-Configuration d’équipements réseau (switch, routeur)
+---
 
-Mise en place d’architectures LAN
+## 📂 Projets Récents
+* 🔹 **Projet Routage :** Mise en œuvre complète d'une infrastructure avec routage inter-vlan sécurisé.
+* 🔹 **Veille Technologique :** [Sujet de ta veille, ex: Evolution du Zero Trust].
+* 🔹 **Lab Perso :** Déploiement d'un serveur de supervision (Zabbix/Centreon).
 
-Gestion de l’adressage IP
+---
 
-VLAN, routage
+## 📊 Statistiques GitHub
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=TON_PSEUDO&show_icons=true&theme=tokyonight&count_private=true" alt="Stats de Sébastien" />
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TON_PSEUDO&layout=compact&theme=tokyonight" alt="Langages les plus utilisés" />
+</p>
 
-🔹 Administration Systèmes
+---
 
-Installation et configuration Windows / Linux
+## 📨 Me contacter
+<p align="center">
+  <a href="mailto:TON_EMAIL">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="TON_LIEN_LINKEDIN">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="TON_LIEN_PORTFOLIO">
+    <img src="https://img.shields.io/badge/Mon_Portfolio-EE8434?style=for-the-badge&logo=react&logoColor=white" />
+  </a>
+</p>
 
-Gestion des utilisateurs et des droits
-
-Services réseaux (DHCP, DNS, Active Directory)
-
-Virtualisation (VMware / VirtualBox)
-
-🔹 Cybersécurité
-
-Sécurisation des postes et serveurs
-
-Gestion des accès
-
-Sauvegardes et restauration
-
-Bonnes pratiques de sécurité informatique
-
-💼 Expérience
-
-🔹 Stage en entreprise
-Participation à l’administration système et au support technique.
-
-📂 Projets
-
-Vous trouverez dans ce portfolio :
-
-Des projets d’infrastructure réseau
-
-Des mises en place de services systèmes
-
-Des études de cas liées à la cybersécurité
-
-Des projets réalisés dans le cadre du BTS SIO
-
-Chaque projet détaille :
-
-Le contexte
-
-Les objectifs
-
-Les outils utilisés
-
-Les compétences mobilisées
-
-📍 Localisation
-
-France
-
-📫 Me Contacter
-
-N'hésitez pas à me contacter pour :
-
-Une alternance
-
-Un stage
-
-Une opportunité en support IT / administration système
-
-Un échange professionnel
-
-✨ Merci de visiter mon portfolio.
+<p align="center">
+  <i>"L'infrastructure est le socle sur lequel repose l'innovation numérique."</i>
+</p>
