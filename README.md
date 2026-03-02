@@ -13,10 +13,7 @@
 <div align="left">
   <img src="https://img.shields.io/badge/📂%20BTS%20SIO%20SISR-Administrateur%20Systèmes%20%26%20Réseaux-orange?style=flat-square&logo=server&logoColor=white" />
   
-  <h1 id="accueil">
-    <span style="color: #EE8434;">Fernandes</span><br />
-    <span style="color: #FFFFFF;">Sébastien</span>
-  </h1>
+  <br /><br />
 
   <p>
     Passionné par l'<b><span style="color: #EE8434;">infrastructure IT</span></b> & la <b><span style="color: #9146FF;">cybersécurité</span></b>.
@@ -68,6 +65,16 @@ Je suis actuellement en deuxième année de BTS SIO (Services Informatiques aux 
 
 ---
 
+<h2 id="veille">🔍 Veille Technologique</h2>
+
+> Je réalise une veille constante sur les évolutions du secteur pour anticiper les menaces et optimiser les infrastructures.
+
+* **Sujets de veille :** [Ex: Évolution du Zero Trust / Sécurisation des environnements Cloud]
+* **Outils :** Flux RSS (Feedly), Veille sur X (ex-Twitter), Forums spécialisés (Reddit SysAdmin).
+* **Objectif :** Maintenir un niveau d'expertise sur les dernières vulnérabilités et solutions logicielles.
+
+---
+
 <h2 id="contact">📬 Me Contacter</h2>
 <p align="left">
   <a href="mailto:TON_EMAIL"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
@@ -76,6 +83,7 @@ Je suis actuellement en deuxième année de BTS SIO (Services Informatiques aux 
 </p>
 
 <br />
+
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=TON_PSEUDO&show_icons=true&theme=tokyonight&title_color=EE8434&text_color=ffffff&icon_color=9146FF&border_color=EE8434" width="400" />
 </div>
