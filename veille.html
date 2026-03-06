@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille GRC | Ruth Constance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* On garde le même style que l'index pour la cohérence */
+        :root { --primary: #9b59b6; --secondary: #ff85a2; --dark: #2c3e50; --light: #fdfcfb; --gradient: linear-gradient(135deg, #6d28d9 0%, #ff85a2 100%); }
+        body { font-family: sans-serif; margin: 0; background: var(--light); color: var(--dark); line-height: 1.6; }
+        header { background: var(--gradient); color: white; padding: 2rem; text-align: center; }
+        nav { background: white; padding: 1rem; display: flex; justify-content: center; gap: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        nav a { text-decoration: none; color: var(--primary); font-weight: bold; }
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+        .card { background: white; padding: 2rem; border-radius: 15px; border-left: 6px solid var(--secondary); box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h2 { color: #6d28d9; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        th, td { text-align: left; padding: 12px; border-bottom: 1px solid #eee; }
+        th { color: var(--primary); }
+    </style>
+</head>
+<body>
+    <header><h1>🛡️ Veille Technologique</h1><p>Gouvernance, Risques et Conformité (GRC)</p></header>
+    <nav><a href="index.html">Accueil</a><a href="competences.html">Compétences</a><a href="veille.html">Veille GRC</a></nav>
+    <div class="container">
+        <div class="card">
+            <h2>Ma Méthodologie</h2>
+            <p>Je réalise une veille active sur les évolutions réglementaires et les frameworks de sécurité pour garantir la conformité des infrastructures SI.</p>
+            <h3>Sujets d'étude :</h3>
+            <ul>
+                <li><strong>ISO 27001 :</strong> Management de la sécurité de l'information.</li>
+                <li><strong>RGPD :</strong> Protection des données personnelles et conformité.</li>
+                <li><strong>Analyse de Risques :</strong> Méthode EBIOS RM de l'ANSSI.</li>
+            </ul>
+            <h3>Outils et Sources :</h3>
+            <table>
+                <tr><th>Source</th><th>Utilisation</th></tr>
+                <tr><td>ANSSI</td><td>Actualités sur les menaces et guides GRC</td></tr>
+                <tr><td>CNIL</td><td>Suivi des réglementations RGPD</td></tr>
+                <tr><td>Feedly</td><td>Agrégation de flux RSS spécialisés</td></tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

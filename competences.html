@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compétences | Ruth Constance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root { --primary: #9b59b6; --secondary: #ff85a2; --dark: #2c3e50; --light: #fdfcfb; --gradient: linear-gradient(135deg, #6d28d9 0%, #ff85a2 100%); }
+        body { font-family: sans-serif; margin: 0; background: var(--light); color: var(--dark); }
+        header { background: var(--gradient); color: white; padding: 2rem; text-align: center; }
+        nav { background: white; padding: 1rem; display: flex; justify-content: center; gap: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        nav a { text-decoration: none; color: var(--primary); font-weight: bold; }
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 1.5rem; border-radius: 12px; border-top: 4px solid var(--primary); box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        h3 { color: var(--primary); display: flex; align-items: center; gap: 8px; }
+    </style>
+</head>
+<body>
+    <header><h1>🛠️ Mes Compétences Techniques</h1><p>Infrastructure, Système et Cybersécurité</p></header>
+    <nav><a href="index.html">Accueil</a><a href="competences.html">Compétences</a><a href="veille.html">Veille GRC</a></nav>
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <h3><i class="fas fa-network-wired"></i> Réseau</h3>
+                <p>Configuration Cisco (VLAN, STP, Routage dynamique). Maîtrise des protocoles LAN/WAN et gestion de l'adressage IP.</p>
+            </div>
+            <div class="card">
+                <h3><i class="fas fa-server"></i> Systèmes</h3>
+                <p>Administration Windows Server (AD DS, GPO, DNS) et Linux (Debian, Ubuntu). Virtualisation sous VMware et Proxmox.</p>
+            </div>
+            <div class="card">
+                <h3><i class="fas fa-lock"></i> Sécurité</h3>
+                <p>Mise en place de Firewalls (pfSense, Stormshield), VPN IPsec/OpenVPN et sécurisation des accès distants.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
