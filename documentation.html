@@ -2,49 +2,53 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Documentations | Ruth Constance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation | Ruth Constance</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+
     <header>
-        <h1>Travaux & Documentations</h1>
-        <p>Projets techniques et fiches de situations professionnelles 📝</p>
+        <h1>Mes Documentations</h1>
+        <p><i class="fas fa-file-alt"></i> Travaux pratiques et Situations Professionnelles</p>
     </header>
 
     <nav>
         <a href="index.html">Accueil</a>
         <a href="competences.html">Compétences</a>
-        <a href="documentation.html">Documentations</a>
+        <a href="documentation.html">Documentation</a>
         <a href="veille.html">Veille GRC</a>
         <a href="contact.html">Contact</a>
     </nav>
 
     <div class="container">
         <div class="card">
-            <h2><i class="fas fa-file-pdf"></i> Situations Professionnelles (Stage / École)</h2>
+            <h2><i class="fas fa-folder-open"></i> Projets & Missions</h2>
+            <p>Retrouvez ici l'ensemble de mes documentations techniques réalisées à l'IPSSI Paris.</p>
+            
             <div class="grid">
-                <div class="skill-item">
-                    <h3>Mission 1 : Déploiement VPN</h3>
-                    <p>Installation et configuration d'un tunnel IPsec via pfSense.</p>
-                    <a href="docs/mission-vpn.pdf" class="btn-link" style="background: var(--primary); font-size: 0.8rem; padding: 5px;">Voir le PDF</a>
+                <div class="card" style="border-top: 3px solid var(--secondary);">
+                    <h3>📁 Situations Pro</h3>
+                    <p>Fiches descriptives de mes activités en entreprise et en TP.</p>
                 </div>
-                <div class="skill-item">
-                    <h3>Mission 2 : Gestion Active Directory</h3>
-                    <p>Mise en place d'Unités d'Organisation et de GPO sécurisées.</p>
-                    <a href="docs/mission-ad.pdf" class="btn-link" style="background: var(--primary); font-size: 0.8rem; padding: 5px;">Voir le PDF</a>
+                <div class="card" style="border-top: 3px solid var(--secondary);">
+                    <h3>📝 Procédures</h3>
+                    <p>Guides d'installation et de configuration (Cisco, Windows Server, pfSense).</p>
                 </div>
             </div>
         </div>
-
-        <div class="card">
-            <h2><i class="fas fa-tools"></i> Procédures Techniques</h2>
-            <ul>
-                <li>Procédure d'installation d'un serveur Debian sécurisé.</li>
-                <li>Guide de configuration VLAN sur switch Cisco.</li>
-                <li>Documentation utilisateur sur la conformité RGPD.</li>
-            </ul>
-        </div>
     </div>
+
+    <footer>
+        <p>&copy; 2026 - Ruth Constance - BTS SIO SISR</p>
+    </footer>
+<div class="card" style="border-top: 3px solid var(--secondary);">
+    <h3>📁 Ma Fiche GRC</h3>
+    <p>Analyse de risques et conformité RGPD réalisée en TP.</p>
+    <a href="docs/ma_fiche_grc.pdf" target="_blank" class="btn-link" style="background: var(--primary); font-size: 0.8rem; width: fit-content; padding: 10px;">
+        <i class="fas fa-file-pdf"></i> Ouvrir le document
+    </a>
+</div>
 </body>
 </html>
