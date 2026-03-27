@@ -1,100 +1,105 @@
-
+/* Palette de couleurs inspirée de l'image Solarpunk */
 :root {
---primary: #9b59b6;    /* Violet */
---secondary: #ff85a2;  /* Rose Girly */
---dark: #2c3e50;
---light: #fdfcfb;
---accent: #6d28d9;
---gradient: linear-gradient(135deg, #6d28d9 0%, #ff85a2 100%);
-}
-body {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-margin: 0;
-background-color: var(--light);
-color: var(--dark);
+    --primary: #9b59b6;     /* Violet Cyber signature */
+    --accent: #ff85a2;      /* Rose Girly */
+    --solarpunk-green: #3ae374; /* Vert éclatant de l'image */
+    --solarpunk-lavender: #d6a2e8; /* Violet doux des fleurs */
+    --glass-bg: rgba(255, 255, 255, 0.9); /* Fond très clair et transparent */
+    --text-dark: #2d3436;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: var(--text-dark);
+    line-height: 1.6;
+    
+    /* L'IMAGE DE FOND : Ton image Solarpunk lumineuse */
+    /* Assure-toi d'avoir cette image dans ton dossier 'image' sur GitHub */
+    background-image: url('image/image_10.png'); /* Le chemin vers ton image */
+    background-size: cover;
+    background-attachment: fixed; /* L'image reste fixe pour un effet classe */
+    background-position: center;
+}
+
+/* Le Header : Doux et transparent */
 header {
-background: var(--gradient);
-color: white;
-padding: 3rem 1rem;
-text-align: center;
-box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    background: linear-gradient(135deg, rgba(155, 89, 182, 0.7) 0%, rgba(255, 133, 162, 0.7) 100%);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Effet de flou sur le fond */
+    border-bottom: 2px solid var(--solarpunk-lavender);
 }
 
 nav {
-background: white;
-padding: 1rem;
-display: flex;
-justify-content: center;
-gap: 25px;
-position: sticky;
-top: 0;
-z-index: 1000;
-box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    background-color: var(--glass-bg);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 nav a {
-text-decoration: none;
-color: var(--primary);
-font-weight: bold;
-transition: 0.3s;
-font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 1.1rem;
 }
 
 nav a:hover {
-color: var(--secondary);
+    color: var(--solarpunk-green); /* Devient vert Solarpunk au survol */
 }
 
+/* Les Cartes en effet "Verre Lumineux" */
 .container {
-max-width: 1000px;
-margin: 2rem auto;
-padding: 2rem;
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 1rem;
 }
 
 .card {
-background: white;
-border-radius: 15px;
-padding: 2rem;
-margin-bottom: 2rem;
-box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-border-left: 6px solid var(--secondary);
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(155, 89, 182, 0.1); /* Ombre violette légère */
+    border-left: 8px solid var(--solarpunk-green); /* Bordure vert Solarpunk */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-h2 {
-color: var(--accent);
-display: flex;
-align-items: center;
-gap: 10px;
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(130, 166, 125, 0.3); /* Ombre verte au survol */
 }
 
-.grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-gap: 20px;
+h2, h3 {
+    color: var(--primary);
 }
 
-.skill-item {
-background: #f8f4ff;
-padding: 1rem;
-border-radius: 10px;
-border: 1px solid #eee;
+/* Les boutons de contact en dégradé Cyber-Nature */
+.btn-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: opacity 0.3s;
 }
 
-.btn-contact {
-display: inline-block;
-background: var(--gradient);
-color: white;
-padding: 10px 25px;
-border-radius: 25px;
-text-decoration: none;
-font-weight: bold;
-margin-top: 10px;
-}
+.btn-link:hover { opacity: 0.8; }
 
-footer {
-text-align: center;
-padding: 2rem;
-color: #888;
-font-size: 0.9rem;
-}
+.gmail { background: linear-gradient(135deg, var(--primary) 0%, var(--solarpunk-green) 100%); }
+.linkedin { background: linear-gradient(135deg, #0077b5 0%, var(--primary) 100%); }
+.github { background: linear-gradient(135deg, #333 0%, var(--solarpunk-lavender) 100%); }
