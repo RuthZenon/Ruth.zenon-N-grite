@@ -1,105 +1,46 @@
-/* Palette de couleurs inspirée de l'image Solarpunk */
+/* Palette Nature Solarpunk Pure */
 :root {
-    --primary: #9b59b6;     /* Violet Cyber signature */
-    --accent: #ff85a2;      /* Rose Girly */
-    --solarpunk-green: #3ae374; /* Vert éclatant de l'image */
-    --solarpunk-lavender: #d6a2e8; /* Violet doux des fleurs */
-    --glass-bg: rgba(255, 255, 255, 0.9); /* Fond très clair et transparent */
-    --text-dark: #2d3436;
+    --nav-bg: rgba(255, 255, 255, 0.95); /* Blanc pur presque opaque pour la clarté */
+    --nav-text: #2d3436;                /* Marron écorce foncé pour le texte */
+    --nav-hover: #27ae60;               /* Vert forêt pour le survol */
+    --nav-border: #82a67d;              /* Vert sauge pour la bordure fine */
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    color: var(--text-dark);
-    line-height: 1.6;
-    
-    /* L'IMAGE DE FOND : Ton image Solarpunk lumineuse */
-    /* Assure-toi d'avoir cette image dans ton dossier 'image' sur GitHub */
-    background-image: url('image/image_10.png'); /* Le chemin vers ton image */
-    background-size: cover;
-    background-attachment: fixed; /* L'image reste fixe pour un effet classe */
-    background-position: center;
-}
-
-/* Le Header : Doux et transparent */
+/* On change le Header pour qu'il soit plus léger sans le rose */
 header {
-    background: linear-gradient(135deg, rgba(155, 89, 182, 0.7) 0%, rgba(255, 133, 162, 0.7) 100%);
-    color: white;
-    padding: 3rem 1rem;
+    background: rgba(255, 255, 255, 0.2); /* Très transparent pour voir l'image derrière */
+    color: #2d3436; /* Texte sombre pour être lisible sur l'image claire */
+    padding: 4rem 1rem;
     text-align: center;
-    backdrop-filter: blur(5px); /* Effet de flou sur le fond */
-    border-bottom: 2px solid var(--solarpunk-lavender);
+    backdrop-filter: blur(8px);
+    border-bottom: 2px solid var(--nav-border);
 }
 
+/* La Nav Bar épurée */
 nav {
-    background-color: var(--glass-bg);
-    padding: 1rem;
+    background-color: var(--nav-bg);
+    padding: 1.2rem;
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
     position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05); /* Ombre très légère */
+    border-bottom: 1px solid rgba(130, 166, 125, 0.3);
 }
 
 nav a {
     text-decoration: none;
-    color: var(--primary);
-    font-weight: bold;
-    transition: 0.3s;
-    font-size: 1.1rem;
+    color: var(--nav-text);
+    font-weight: 600; /* Un peu plus épais pour la lisibilité */
+    transition: 0.3s ease;
+    font-size: 1.05rem;
+    text-transform: uppercase; /* Donne un côté plus pro/clean */
+    letter-spacing: 1px;
 }
 
 nav a:hover {
-    color: var(--solarpunk-green); /* Devient vert Solarpunk au survol */
+    color: var(--nav-hover);
+    transform: translateY(-2px);
 }
-
-/* Les Cartes en effet "Verre Lumineux" */
-.container {
-    max-width: 1000px;
-    margin: 3rem auto;
-    padding: 1rem;
-}
-
-.card {
-    background: var(--glass-bg);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 10px 30px rgba(155, 89, 182, 0.1); /* Ombre violette légère */
-    border-left: 8px solid var(--solarpunk-green); /* Bordure vert Solarpunk */
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(130, 166, 125, 0.3); /* Ombre verte au survol */
-}
-
-h2, h3 {
-    color: var(--primary);
-}
-
-/* Les boutons de contact en dégradé Cyber-Nature */
-.btn-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    padding: 15px;
-    text-decoration: none;
-    color: white;
-    border-radius: 12px;
-    font-weight: bold;
-    transition: opacity 0.3s;
-}
-
-.btn-link:hover { opacity: 0.8; }
-
-.gmail { background: linear-gradient(135deg, var(--primary) 0%, var(--solarpunk-green) 100%); }
-.linkedin { background: linear-gradient(135deg, #0077b5 0%, var(--primary) 100%); }
-.github { background: linear-gradient(135deg, #333 0%, var(--solarpunk-lavender) 100%); }
