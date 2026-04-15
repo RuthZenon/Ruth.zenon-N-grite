@@ -3,61 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compétences | Ruth Constance</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        :root { --primary: #9b59b6; --secondary: #ff85a2; --dark: #2c3e50; --light: #fdfcfb; --gradient: linear-gradient(135deg, #6d28d9 0%, #ff85a2 100%); }
-        body { font-family: sans-serif; margin: 0; background: var(--light); color: var(--dark); }
-        header { background: var(--gradient); color: white; padding: 2rem; text-align: center; }
-        nav { background: white; padding: 1rem; display: flex; justify-content: center; gap: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        nav a { text-decoration: none; color: var(--primary); font-weight: bold; }
-        .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-        .card { background: white; padding: 1.5rem; border-radius: 12px; border-top: 4px solid var(--primary); box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
-        h3 { color: var(--primary); display: flex; align-items: center; gap: 8px; }
-    </style>
+    <title>Réalisations - Ruth Zénon Négrite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-    <h1><i class="fas fa-seedling"></i> Mes Compétences SISR</h1>
-    <p>Évolution de mon expertise au cours de mon BTS SIO à l'IPSSI Paris</p>
+
+<header>
+    <h1><i class="fas fa-tasks"></i> Mes Réalisations</h1>
+    <p>Projets techniques et preuves de compétences</p>
 </header>
 
 <nav>
     <a href="index.html">Accueil</a>
-    <a href="competences.html">Compétences</a>
-    <a href="documentation.html">Documentations</a>
+    <a href="Formation.html">Formation</a>
+    <a href="competences.html">Réalisations</a>
     <a href="veille.html">Veille GRC</a>
     <a href="contact.html">Contact</a>
 </nav>
 
-<div class="card">
-    <h2><i class="fas fa-leaf"></i> Les Racines : Fondamentaux SISR (Année 1)</h2>
-    <ul class="solar-list">
-        <li><strong>Réseaux Cisco :</strong> Configuration de VLANs, trunks et protocole STP sur Switchs.</li>
-        <li><strong>Wireshark :</strong> Diagnostic réseau avancé et analyse de trames.</li>
-        <li><strong>Active Directory :</strong> Installation et configuration d'un contrôleur de domaine.</li>
-        <li><strong>Sécurisation :</strong> Mise en place du chiffrement de disque sous Linux.</li>
-    </ul>
-</div>
+    <div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center;">
 
-    <div class="card" style="border-left: 8px solid var(--solarpunk-green);">
-        <h2><i class="fas fa-tree"></i> La Croissance : Expertise & Infrastructures (Année 2)</h2>
-        <ul>
-            <li><strong>Déploiement Industriel :</strong> Automatisation via <strong>MDT</strong> (Microsoft Deployment Toolkit) pour Windows 11.</li>
-            <li><strong>Haute Disponibilité :</strong> Configuration de clusters <strong>DHCP</strong> redondants.</li>
-            <li><strong>Gestion de Parc :</strong> Mise en place de la solution <strong>GLPI</strong> pour le suivi des tickets et inventaire.</li>
-            <li><strong>Mobilité Sécurisée :</strong> Configuration de tablettes et smartphones avec clés Token pour le milieu militaire.</li>
-        </ul>
+    <div class="container">
+    <div class="card" style="text-align: center; margin-bottom: 30px;">
+        <h2 style="color: #9b59b6; margin-bottom: 10px;"></h2>
+        <p>Preuves de réalisations en milieu professionnel et académique.</p>
     </div>
 
-    <div class="card">
-        <h2><i class="fas fa-tools"></i> Environnement Technologique</h2>
-        <p>
-            Utilisation quotidienne de <strong>VS Code</strong> pour le développement, <strong>Git</strong> pour le versioning, 
-            et outils de virtualisation comme <strong>VMware</strong> ou <strong>Proxmox</strong>.
-        </p>
-    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 25px; justify-content: center;">
+
+        <div class="card" style="flex: 1; min-width: 350px; max-width: 500px; border-top: 5px solid #1e3a8a;">
+            <span class="badge" style="background: #1e3a8a;">Ministère des Armées</span>
+            <h3>Configuration de postes sécurisés</h3>
+            <p>Déploiement de terminaux mobiles et clés token sous protocoles de sécurité défense.</p>
+            <div style="margin-top: 15px;">
+                <a href="docs/Fiche_Postes_Militaires_Ruth.pdf" target="_blank" class="btn-link" style="font-size: 0.85rem;">Voir la fiche technique</a>
+            </div>
+        </div>
+
+        <div class="card" style="flex: 1; min-width: 350px; max-width: 500px; border-top: 5px solid #9b59b6;">
+            <span class="badge" style="background: #9b59b6;">Projet École</span>
+            <h3>Segmentation Réseau (VLAN)</h3>
+            <p>Sécurisation du trafic réseau par l'isolation des flux critiques sur commutateurs Cisco.</p>
+            <div style="margin-top: 15px;">
+                <a href="docs/Rapport_VLAN_Ruth.pdf" target="_blank" class="btn-link" style="font-size: 0.85rem;">Voir le rapport</a>
+            </div>
+        </div>
+
+        <div class="card" style="flex: 1; min-width: 350px; max-width: 500px; border-top: 5px solid #e67e22;">
+            <span class="badge" style="background: #e67e22;">Projet École</span>
+            <h3>Gestion de parc (GLPI)</h3>
+            <p>Installation d'un serveur GLPI pour l'inventaire et la gestion des tickets incidents.</p>
+            <div style="margin-top: 15px;">
+                <a href="docs/Rapport_GLPI_Ruth.pdf" target="_blank" class="btn-link" style="font-size: 0.85rem;">Voir la documentation</a>
+            </div>
+        </div>
+
+        <div class="card" style="flex: 1; min-width: 350px; max-width: 500px; border-top: 5px solid #27ae60;">
+            <span class="badge" style="background: #27ae60;">Centre Pastoral (Stage)</span>
+            <h3>Rédaction de fiches réflexes</h3>
+            <p>Création de procédures d'assistance pour optimiser la résolution d'incidents multi-sites.</p>
+            <div style="margin-top: 15px;">
+                <a href="docs/Fiches_Reflexes_Ruth.pdf" target="_blank" class="btn-link" style="font-size: 0.85rem;">Consulter les fiches</a>
+            </div>
+        </div>
+
+        
 </div>
+
+<footer>
+    <p>&copy; 2024 Ruth Zénon Négrite - Portfolio</p>
+</footer>
 </body>
 </html>
