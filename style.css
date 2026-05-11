@@ -93,3 +93,13 @@ footer {
     font-size: 1.5rem;
     margin-right: 10px;
 }
+
+/* Effet de rebond dynamique au survol des boutons */
+.btn, .btn-link, .btn-solidaire, nav a {
+    transition: all 0.3s ease-in-out; /* Pour que le mouvement soit fluide */
+}
+
+.btn:hover, .btn-link:hover, .btn-solidaire:hover {
+    transform: translateY(-4px); /* Fait "sauter" le bouton vers le haut de 4 pixels */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Ajoute une ombre légère en dessous pour accentuer le relief */
+}
